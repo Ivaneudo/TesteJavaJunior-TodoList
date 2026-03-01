@@ -3,7 +3,6 @@ package com.testeTecnico.desafio_todolist;
 import com.testeTecnico.desafio_todolist.entity.Todo;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.test.web.reactive.server.WebTestClient;
@@ -47,6 +46,13 @@ class DesafioTodolistApplicationTests {
 	}
 	@Test
 	void testeCreateTodoFailure() {
+		webTestClient
+						.post()
+						.uri("/todo")
+						.bodyValue(
+										new Todo("", "", false, 0)
+						).exchange()
+						.expectStatus().isBadRequest();
 	}
 
 }
