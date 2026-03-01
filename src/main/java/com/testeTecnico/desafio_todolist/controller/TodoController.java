@@ -1,7 +1,6 @@
 package com.testeTecnico.desafio_todolist.controller;
 
 import com.testeTecnico.desafio_todolist.entity.Todo;
-import com.testeTecnico.desafio_todolist.repository.TodoRepository;
 import com.testeTecnico.desafio_todolist.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -9,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/todo");
+@RequestMapping("/todo")
 public class TodoController {
 
   @Autowired
