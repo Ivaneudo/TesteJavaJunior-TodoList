@@ -22,7 +22,7 @@ public class TodoService {
   public List<Todo> list() {
     // Filtra por prioridade e depois por nome.
     Sort sort = Sort.by(Sort.Direction.ASC, "prioridade").descending().and(
-            Sort.by(Sort.Direction.ASC, "nome").ascending()
+            Sort.by(Sort.Direction.ASC, "name").ascending()
     );
     return todoRepository.findAll(sort);
   }
