@@ -52,11 +52,11 @@ public class Todo {
     this.realizado = realizado;
   }
 
-  public int getPrioriadade() {
+  public int getPrioridade() {
     return prioridade;
   }
 
-  public void setPrioriadade(int prioriadade) {
+  public void setPrioridade(int prioriadade) {
     this.prioridade = prioridade;
   }
 }
