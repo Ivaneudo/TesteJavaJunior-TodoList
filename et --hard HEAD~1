@@ -1,0 +1,24 @@
+[33m958e41d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m feat[springdoc]: Adicinando a springdoc para facilitar a visualização dos endpoints
+[33m61d89a2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m feat[Valid]: Chamando a validação para o controller.
+[33m60b4e43[m fix[validação]: Adicionnado validação para nome e descrição da tarefa.
+[33mf1c5d13[m feat[test]: Configurando o teste testeCreateTodoFailure
+[33m78c0394[m feat[pom]: Adicionnado a dependencia: spring-boot-starter-validation
+[33m162ea04[m feat[teste]: Configuração do primeiro teste, testeCreateTodoSuccess
+[33ma7e21c6[m feat[resources]: Adicionando banco de dados para testes
+[33m6552cbd[m feat[pom]: Adicionanodo spring-boot-starter-test
+[33mae8fe13[m feat[Todo]: Adicionando um contruturo vazio.
+[33mb086a5c[m fix[prioridade]: Correção nos metodos get e set Prioridade.
+[33md861309[m feat[h2]: Instalando o h2 no projeto para teste e adicionando scope
+[33m9e351ad[m feat[webflux]: Adicionando o webflux no projeto.
+[33mfc282b0[m feat[Todo]: Criando o construtor.
+[33mc2d776e[m fix[entity]: Atualizando o Todo.
+[33m5e9848e[m fix[update]: Mantendo os dados no db depois da autlialização
+[33mb87e044[m fix[service]: Concertando o name
+[33m9065535[m fix[Entity]: Corrigindo o prioridade
+[33m94c57f8[m fix[properties]: Corrigindo a conexão com o banco de dados.
+[33m901a45f[m fix[TodoController]: Concertando o RequestMaping
+[33mb83e5ef[m fiet[TodoController]: Criando o TodoController
+[33m8660099[m fiet[TodoService]: Criando o TodoService
+[33m394f0a8[m feat[TodoRepository]: Criando a interface TodoRepository
+[33md2ded9c[m feat[entity] Criando o entity Todo
+[33m46982e4[m feat[init] Iniciando o projeto.

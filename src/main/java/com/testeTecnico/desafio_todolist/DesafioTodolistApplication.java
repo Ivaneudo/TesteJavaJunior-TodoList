@@ -1,4 +1,4 @@
-package com.testeTecnico.desafio_todolist;
+package desafio_todolist;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
